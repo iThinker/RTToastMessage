@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E935108E1790124100F30FA2 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108A1790124100F30FA2 /* dog.png */; };
+		E935108F1790124100F30FA2 /* dog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108B1790124100F30FA2 /* dog@2x.png */; };
+		E93510901790124100F30FA2 /* fox.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108C1790124100F30FA2 /* fox.png */; };
+		E93510911790124100F30FA2 /* fox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108D1790124100F30FA2 /* fox@2x.png */; };
+		E993BAFD178B080B00CD032E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BAFC178B080B00CD032E /* UIKit.framework */; };
+		E993BAFF178B080B00CD032E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BAFE178B080B00CD032E /* Foundation.framework */; };
+		E993BB01178B080B00CD032E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BB00178B080B00CD032E /* CoreGraphics.framework */; };
+		E993BB07178B080B00CD032E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E993BB05178B080B00CD032E /* InfoPlist.strings */; };
+		E993BB09178B080B00CD032E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB08178B080B00CD032E /* main.m */; };
+		E993BB0D178B080B00CD032E /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB0C178B080B00CD032E /* RTAppDelegate.m */; };
+		E993BB0F178B080B00CD032E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E993BB0E178B080B00CD032E /* Default.png */; };
+		E993BB11178B080B00CD032E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E993BB10178B080B00CD032E /* Default@2x.png */; };
+		E993BB13178B080B00CD032E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E993BB12178B080B00CD032E /* Default-568h@2x.png */; };
+		E993BB16178B080B00CD032E /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB15178B080B00CD032E /* RTViewController.m */; };
+		E993BB19178B080B00CD032E /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E993BB17178B080B00CD032E /* RTViewController.xib */; };
+		E993BB30178B11DD00CD032E /* RTToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB2F178B11DD00CD032E /* RTToastManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E993BB33178B11FA00CD032E /* RTToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB32178B11FA00CD032E /* RTToastMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E935108A1790124100F30FA2 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		E935108B1790124100F30FA2 /* dog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog@2x.png"; sourceTree = "<group>"; };
+		E935108C1790124100F30FA2 /* fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fox.png; sourceTree = "<group>"; };
+		E935108D1790124100F30FA2 /* fox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fox@2x.png"; sourceTree = "<group>"; };
+		E993BAF9178B080B00CD032E /* RTToastManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTToastManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E993BAFC178B080B00CD032E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E993BAFE178B080B00CD032E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E993BB00178B080B00CD032E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E993BB04178B080B00CD032E /* RTToastManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTToastManager-Info.plist"; sourceTree = "<group>"; };
+		E993BB06178B080B00CD032E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E993BB08178B080B00CD032E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E993BB0A178B080B00CD032E /* RTToastManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTToastManager-Prefix.pch"; sourceTree = "<group>"; };
+		E993BB0B178B080B00CD032E /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		E993BB0C178B080B00CD032E /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		E993BB0E178B080B00CD032E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E993BB10178B080B00CD032E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E993BB12178B080B00CD032E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E993BB14178B080B00CD032E /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		E993BB15178B080B00CD032E /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		E993BB18178B080B00CD032E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController.xib; sourceTree = "<group>"; };
+		E993BB2E178B11DD00CD032E /* RTToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTToastManager.h; sourceTree = SOURCE_ROOT; };
+		E993BB2F178B11DD00CD032E /* RTToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTToastManager.m; sourceTree = SOURCE_ROOT; };
+		E993BB31178B11FA00CD032E /* RTToastMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTToastMessage.h; sourceTree = SOURCE_ROOT; };
+		E993BB32178B11FA00CD032E /* RTToastMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTToastMessage.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E993BAF6178B080B00CD032E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E993BAFD178B080B00CD032E /* UIKit.framework in Frameworks */,
+				E993BAFF178B080B00CD032E /* Foundation.framework in Frameworks */,
+				E993BB01178B080B00CD032E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E993BAF0178B080B00CD032E = {
+			isa = PBXGroup;
+			children = (
+				E993BB02178B080B00CD032E /* RTToastManager */,
+				E993BAFB178B080B00CD032E /* Frameworks */,
+				E993BAFA178B080B00CD032E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E993BAFA178B080B00CD032E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E993BAF9178B080B00CD032E /* RTToastManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E993BAFB178B080B00CD032E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E993BAFC178B080B00CD032E /* UIKit.framework */,
+				E993BAFE178B080B00CD032E /* Foundation.framework */,
+				E993BB00178B080B00CD032E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E993BB02178B080B00CD032E /* RTToastManager */ = {
+			isa = PBXGroup;
+			children = (
+				E993BB23178B110000CD032E /* RTToastManager */,
+				E993BB0B178B080B00CD032E /* RTAppDelegate.h */,
+				E993BB0C178B080B00CD032E /* RTAppDelegate.m */,
+				E993BB14178B080B00CD032E /* RTViewController.h */,
+				E993BB15178B080B00CD032E /* RTViewController.m */,
+				E993BB17178B080B00CD032E /* RTViewController.xib */,
+				E993BB03178B080B00CD032E /* Supporting Files */,
+			);
+			path = RTToastManager;
+			sourceTree = "<group>";
+		};
+		E993BB03178B080B00CD032E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E935108A1790124100F30FA2 /* dog.png */,
+				E935108B1790124100F30FA2 /* dog@2x.png */,
+				E935108C1790124100F30FA2 /* fox.png */,
+				E935108D1790124100F30FA2 /* fox@2x.png */,
+				E993BB04178B080B00CD032E /* RTToastManager-Info.plist */,
+				E993BB05178B080B00CD032E /* InfoPlist.strings */,
+				E993BB08178B080B00CD032E /* main.m */,
+				E993BB0A178B080B00CD032E /* RTToastManager-Prefix.pch */,
+				E993BB0E178B080B00CD032E /* Default.png */,
+				E993BB10178B080B00CD032E /* Default@2x.png */,
+				E993BB12178B080B00CD032E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E993BB23178B110000CD032E /* RTToastManager */ = {
+			isa = PBXGroup;
+			children = (
+				E993BB2E178B11DD00CD032E /* RTToastManager.h */,
+				E993BB2F178B11DD00CD032E /* RTToastManager.m */,
+				E993BB31178B11FA00CD032E /* RTToastMessage.h */,
+				E993BB32178B11FA00CD032E /* RTToastMessage.m */,
+			);
+			name = RTToastManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E993BAF8178B080B00CD032E /* RTToastManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E993BB1F178B080B00CD032E /* Build configuration list for PBXNativeTarget "RTToastManager" */;
+			buildPhases = (
+				E993BAF5178B080B00CD032E /* Sources */,
+				E993BAF6178B080B00CD032E /* Frameworks */,
+				E993BAF7178B080B00CD032E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTToastManager;
+			productName = RTToastManager;
+			productReference = E993BAF9178B080B00CD032E /* RTToastManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E993BAF1178B080B00CD032E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Roman Temchenko";
+			};
+			buildConfigurationList = E993BAF4178B080B00CD032E /* Build configuration list for PBXProject "RTToastManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E993BAF0178B080B00CD032E;
+			productRefGroup = E993BAFA178B080B00CD032E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E993BAF8178B080B00CD032E /* RTToastManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E993BAF7178B080B00CD032E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E993BB07178B080B00CD032E /* InfoPlist.strings in Resources */,
+				E993BB0F178B080B00CD032E /* Default.png in Resources */,
+				E993BB11178B080B00CD032E /* Default@2x.png in Resources */,
+				E993BB13178B080B00CD032E /* Default-568h@2x.png in Resources */,
+				E993BB19178B080B00CD032E /* RTViewController.xib in Resources */,
+				E935108E1790124100F30FA2 /* dog.png in Resources */,
+				E935108F1790124100F30FA2 /* dog@2x.png in Resources */,
+				E93510901790124100F30FA2 /* fox.png in Resources */,
+				E93510911790124100F30FA2 /* fox@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E993BAF5178B080B00CD032E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E993BB09178B080B00CD032E /* main.m in Sources */,
+				E993BB0D178B080B00CD032E /* RTAppDelegate.m in Sources */,
+				E993BB16178B080B00CD032E /* RTViewController.m in Sources */,
+				E993BB30178B11DD00CD032E /* RTToastManager.m in Sources */,
+				E993BB33178B11FA00CD032E /* RTToastMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E993BB05178B080B00CD032E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E993BB06178B080B00CD032E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E993BB17178B080B00CD032E /* RTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E993BB18178B080B00CD032E /* en */,
+			);
+			name = RTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E993BB1D178B080B00CD032E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E993BB1E178B080B00CD032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E993BB20178B080B00CD032E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTToastManager/RTToastManager-Prefix.pch";
+				INFOPLIST_FILE = "RTToastManager/RTToastManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E993BB21178B080B00CD032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTToastManager/RTToastManager-Prefix.pch";
+				INFOPLIST_FILE = "RTToastManager/RTToastManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E993BAF4178B080B00CD032E /* Build configuration list for PBXProject "RTToastManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E993BB1D178B080B00CD032E /* Debug */,
+				E993BB1E178B080B00CD032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E993BB1F178B080B00CD032E /* Build configuration list for PBXNativeTarget "RTToastManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E993BB20178B080B00CD032E /* Debug */,
+				E993BB21178B080B00CD032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E993BAF1178B080B00CD032E /* Project object */;
+}
