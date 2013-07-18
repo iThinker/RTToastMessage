@@ -7,46 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E935108E1790124100F30FA2 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108A1790124100F30FA2 /* dog.png */; };
-		E935108F1790124100F30FA2 /* dog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108B1790124100F30FA2 /* dog@2x.png */; };
-		E93510901790124100F30FA2 /* fox.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108C1790124100F30FA2 /* fox.png */; };
-		E93510911790124100F30FA2 /* fox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935108D1790124100F30FA2 /* fox@2x.png */; };
+		E93510A517904C6A00F30FA2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109317904C6A00F30FA2 /* Default-568h@2x.png */; };
+		E93510A617904C6A00F30FA2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109417904C6A00F30FA2 /* Default.png */; };
+		E93510A717904C6A00F30FA2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109517904C6A00F30FA2 /* Default@2x.png */; };
+		E93510A817904C6A00F30FA2 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109617904C6A00F30FA2 /* dog.png */; };
+		E93510A917904C6A00F30FA2 /* dog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109717904C6A00F30FA2 /* dog@2x.png */; };
+		E93510AA17904C6A00F30FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E935109817904C6A00F30FA2 /* InfoPlist.strings */; };
+		E93510AB17904C6A00F30FA2 /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E935109A17904C6A00F30FA2 /* RTViewController.xib */; };
+		E93510AC17904C6A00F30FA2 /* fox.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109C17904C6A00F30FA2 /* fox.png */; };
+		E93510AD17904C6A00F30FA2 /* fox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109D17904C6A00F30FA2 /* fox@2x.png */; };
+		E93510AE17904C6A00F30FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E935109E17904C6A00F30FA2 /* main.m */; };
+		E93510AF17904C6A00F30FA2 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93510A017904C6A00F30FA2 /* RTAppDelegate.m */; };
+		E93510B017904C6A00F30FA2 /* RTToastManager-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E93510A117904C6A00F30FA2 /* RTToastManager-Info.plist */; };
+		E93510B117904C6A00F30FA2 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93510A417904C6A00F30FA2 /* RTViewController.m */; };
 		E993BAFD178B080B00CD032E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BAFC178B080B00CD032E /* UIKit.framework */; };
 		E993BAFF178B080B00CD032E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BAFE178B080B00CD032E /* Foundation.framework */; };
 		E993BB01178B080B00CD032E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BB00178B080B00CD032E /* CoreGraphics.framework */; };
-		E993BB07178B080B00CD032E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E993BB05178B080B00CD032E /* InfoPlist.strings */; };
-		E993BB09178B080B00CD032E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB08178B080B00CD032E /* main.m */; };
-		E993BB0D178B080B00CD032E /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB0C178B080B00CD032E /* RTAppDelegate.m */; };
-		E993BB0F178B080B00CD032E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E993BB0E178B080B00CD032E /* Default.png */; };
-		E993BB11178B080B00CD032E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E993BB10178B080B00CD032E /* Default@2x.png */; };
-		E993BB13178B080B00CD032E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E993BB12178B080B00CD032E /* Default-568h@2x.png */; };
-		E993BB16178B080B00CD032E /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB15178B080B00CD032E /* RTViewController.m */; };
-		E993BB19178B080B00CD032E /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E993BB17178B080B00CD032E /* RTViewController.xib */; };
 		E993BB30178B11DD00CD032E /* RTToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB2F178B11DD00CD032E /* RTToastManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E993BB33178B11FA00CD032E /* RTToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB32178B11FA00CD032E /* RTToastMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E935108A1790124100F30FA2 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
-		E935108B1790124100F30FA2 /* dog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog@2x.png"; sourceTree = "<group>"; };
-		E935108C1790124100F30FA2 /* fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fox.png; sourceTree = "<group>"; };
-		E935108D1790124100F30FA2 /* fox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fox@2x.png"; sourceTree = "<group>"; };
+		E935109317904C6A00F30FA2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E935109417904C6A00F30FA2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E935109517904C6A00F30FA2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E935109617904C6A00F30FA2 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		E935109717904C6A00F30FA2 /* dog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog@2x.png"; sourceTree = "<group>"; };
+		E935109917904C6A00F30FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E935109B17904C6A00F30FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController.xib; sourceTree = "<group>"; };
+		E935109C17904C6A00F30FA2 /* fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fox.png; sourceTree = "<group>"; };
+		E935109D17904C6A00F30FA2 /* fox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fox@2x.png"; sourceTree = "<group>"; };
+		E935109E17904C6A00F30FA2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E935109F17904C6A00F30FA2 /* RTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		E93510A017904C6A00F30FA2 /* RTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		E93510A117904C6A00F30FA2 /* RTToastManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RTToastManager-Info.plist"; sourceTree = "<group>"; };
+		E93510A217904C6A00F30FA2 /* RTToastManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTToastManager-Prefix.pch"; sourceTree = "<group>"; };
+		E93510A317904C6A00F30FA2 /* RTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		E93510A417904C6A00F30FA2 /* RTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
 		E993BAF9178B080B00CD032E /* RTToastManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTToastManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E993BAFC178B080B00CD032E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E993BAFE178B080B00CD032E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E993BB00178B080B00CD032E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E993BB04178B080B00CD032E /* RTToastManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTToastManager-Info.plist"; sourceTree = "<group>"; };
-		E993BB06178B080B00CD032E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E993BB08178B080B00CD032E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E993BB0A178B080B00CD032E /* RTToastManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTToastManager-Prefix.pch"; sourceTree = "<group>"; };
-		E993BB0B178B080B00CD032E /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
-		E993BB0C178B080B00CD032E /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
-		E993BB0E178B080B00CD032E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		E993BB10178B080B00CD032E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		E993BB12178B080B00CD032E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E993BB14178B080B00CD032E /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
-		E993BB15178B080B00CD032E /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
-		E993BB18178B080B00CD032E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController.xib; sourceTree = "<group>"; };
 		E993BB2E178B11DD00CD032E /* RTToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTToastManager.h; sourceTree = SOURCE_ROOT; };
 		E993BB2F178B11DD00CD032E /* RTToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTToastManager.m; sourceTree = SOURCE_ROOT; };
 		E993BB31178B11FA00CD032E /* RTToastMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTToastMessage.h; sourceTree = SOURCE_ROOT; };
@@ -67,9 +68,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E935109217904C6A00F30FA2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E93510B217904CD900F30FA2 /* Supporting Files */,
+				E935109F17904C6A00F30FA2 /* RTAppDelegate.h */,
+				E93510A017904C6A00F30FA2 /* RTAppDelegate.m */,
+				E93510A317904C6A00F30FA2 /* RTViewController.h */,
+				E93510A417904C6A00F30FA2 /* RTViewController.m */,
+				E935109A17904C6A00F30FA2 /* RTViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E93510B217904CD900F30FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E935109C17904C6A00F30FA2 /* fox.png */,
+				E935109D17904C6A00F30FA2 /* fox@2x.png */,
+				E935109617904C6A00F30FA2 /* dog.png */,
+				E935109717904C6A00F30FA2 /* dog@2x.png */,
+				E935109317904C6A00F30FA2 /* Default-568h@2x.png */,
+				E935109417904C6A00F30FA2 /* Default.png */,
+				E935109517904C6A00F30FA2 /* Default@2x.png */,
+				E935109817904C6A00F30FA2 /* InfoPlist.strings */,
+				E935109E17904C6A00F30FA2 /* main.m */,
+				E93510A117904C6A00F30FA2 /* RTToastManager-Info.plist */,
+				E93510A217904C6A00F30FA2 /* RTToastManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E993BAF0178B080B00CD032E = {
 			isa = PBXGroup;
 			children = (
+				E935109217904C6A00F30FA2 /* Demo */,
 				E993BB02178B080B00CD032E /* RTToastManager */,
 				E993BAFB178B080B00CD032E /* Frameworks */,
 				E993BAFA178B080B00CD032E /* Products */,
@@ -98,32 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				E993BB23178B110000CD032E /* RTToastManager */,
-				E993BB0B178B080B00CD032E /* RTAppDelegate.h */,
-				E993BB0C178B080B00CD032E /* RTAppDelegate.m */,
-				E993BB14178B080B00CD032E /* RTViewController.h */,
-				E993BB15178B080B00CD032E /* RTViewController.m */,
-				E993BB17178B080B00CD032E /* RTViewController.xib */,
-				E993BB03178B080B00CD032E /* Supporting Files */,
 			);
 			path = RTToastManager;
-			sourceTree = "<group>";
-		};
-		E993BB03178B080B00CD032E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E935108A1790124100F30FA2 /* dog.png */,
-				E935108B1790124100F30FA2 /* dog@2x.png */,
-				E935108C1790124100F30FA2 /* fox.png */,
-				E935108D1790124100F30FA2 /* fox@2x.png */,
-				E993BB04178B080B00CD032E /* RTToastManager-Info.plist */,
-				E993BB05178B080B00CD032E /* InfoPlist.strings */,
-				E993BB08178B080B00CD032E /* main.m */,
-				E993BB0A178B080B00CD032E /* RTToastManager-Prefix.pch */,
-				E993BB0E178B080B00CD032E /* Default.png */,
-				E993BB10178B080B00CD032E /* Default@2x.png */,
-				E993BB12178B080B00CD032E /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E993BB23178B110000CD032E /* RTToastManager */ = {
@@ -189,15 +198,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E993BB07178B080B00CD032E /* InfoPlist.strings in Resources */,
-				E993BB0F178B080B00CD032E /* Default.png in Resources */,
-				E993BB11178B080B00CD032E /* Default@2x.png in Resources */,
-				E993BB13178B080B00CD032E /* Default-568h@2x.png in Resources */,
-				E993BB19178B080B00CD032E /* RTViewController.xib in Resources */,
-				E935108E1790124100F30FA2 /* dog.png in Resources */,
-				E935108F1790124100F30FA2 /* dog@2x.png in Resources */,
-				E93510901790124100F30FA2 /* fox.png in Resources */,
-				E93510911790124100F30FA2 /* fox@2x.png in Resources */,
+				E93510A517904C6A00F30FA2 /* Default-568h@2x.png in Resources */,
+				E93510A617904C6A00F30FA2 /* Default.png in Resources */,
+				E93510A717904C6A00F30FA2 /* Default@2x.png in Resources */,
+				E93510A817904C6A00F30FA2 /* dog.png in Resources */,
+				E93510A917904C6A00F30FA2 /* dog@2x.png in Resources */,
+				E93510AA17904C6A00F30FA2 /* InfoPlist.strings in Resources */,
+				E93510AB17904C6A00F30FA2 /* RTViewController.xib in Resources */,
+				E93510AC17904C6A00F30FA2 /* fox.png in Resources */,
+				E93510AD17904C6A00F30FA2 /* fox@2x.png in Resources */,
+				E93510B017904C6A00F30FA2 /* RTToastManager-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,29 +218,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E993BB09178B080B00CD032E /* main.m in Sources */,
-				E993BB0D178B080B00CD032E /* RTAppDelegate.m in Sources */,
-				E993BB16178B080B00CD032E /* RTViewController.m in Sources */,
 				E993BB30178B11DD00CD032E /* RTToastManager.m in Sources */,
 				E993BB33178B11FA00CD032E /* RTToastMessage.m in Sources */,
+				E93510AE17904C6A00F30FA2 /* main.m in Sources */,
+				E93510AF17904C6A00F30FA2 /* RTAppDelegate.m in Sources */,
+				E93510B117904C6A00F30FA2 /* RTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E993BB05178B080B00CD032E /* InfoPlist.strings */ = {
+		E935109817904C6A00F30FA2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E993BB06178B080B00CD032E /* en */,
+				E935109917904C6A00F30FA2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E993BB17178B080B00CD032E /* RTViewController.xib */ = {
+		E935109A17904C6A00F30FA2 /* RTViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E993BB18178B080B00CD032E /* en */,
+				E935109B17904C6A00F30FA2 /* en */,
 			);
 			name = RTViewController.xib;
 			sourceTree = "<group>";
