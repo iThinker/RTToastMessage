@@ -18,13 +18,12 @@
 		E93510AD17904C6A00F30FA2 /* fox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E935109D17904C6A00F30FA2 /* fox@2x.png */; };
 		E93510AE17904C6A00F30FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E935109E17904C6A00F30FA2 /* main.m */; };
 		E93510AF17904C6A00F30FA2 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93510A017904C6A00F30FA2 /* RTAppDelegate.m */; };
-		E93510B017904C6A00F30FA2 /* RTToastManager-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E93510A117904C6A00F30FA2 /* RTToastManager-Info.plist */; };
 		E93510B117904C6A00F30FA2 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93510A417904C6A00F30FA2 /* RTViewController.m */; };
 		E993BAFD178B080B00CD032E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BAFC178B080B00CD032E /* UIKit.framework */; };
 		E993BAFF178B080B00CD032E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BAFE178B080B00CD032E /* Foundation.framework */; };
 		E993BB01178B080B00CD032E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E993BB00178B080B00CD032E /* CoreGraphics.framework */; };
-		E993BB30178B11DD00CD032E /* RTToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB2F178B11DD00CD032E /* RTToastManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E993BB33178B11FA00CD032E /* RTToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB32178B11FA00CD032E /* RTToastMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E993BB30178B11DD00CD032E /* RTToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB2F178B11DD00CD032E /* RTToastManager.m */; };
+		E9979F9917983BCC0084BF1C /* RTToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E993BB32178B11FA00CD032E /* RTToastMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -207,7 +206,6 @@
 				E93510AB17904C6A00F30FA2 /* RTViewController.xib in Resources */,
 				E93510AC17904C6A00F30FA2 /* fox.png in Resources */,
 				E93510AD17904C6A00F30FA2 /* fox@2x.png in Resources */,
-				E93510B017904C6A00F30FA2 /* RTToastManager-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,8 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9979F9917983BCC0084BF1C /* RTToastMessage.m in Sources */,
 				E993BB30178B11DD00CD032E /* RTToastManager.m in Sources */,
-				E993BB33178B11FA00CD032E /* RTToastMessage.m in Sources */,
 				E93510AE17904C6A00F30FA2 /* main.m in Sources */,
 				E93510AF17904C6A00F30FA2 /* RTAppDelegate.m in Sources */,
 				E93510B117904C6A00F30FA2 /* RTViewController.m in Sources */,
@@ -310,8 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RTToastManager/RTToastManager-Prefix.pch";
-				INFOPLIST_FILE = "RTToastManager/RTToastManager-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/RTToastManager-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/RTToastManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -322,8 +320,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RTToastManager/RTToastManager-Prefix.pch";
-				INFOPLIST_FILE = "RTToastManager/RTToastManager-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/RTToastManager-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/RTToastManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
