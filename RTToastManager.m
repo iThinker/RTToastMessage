@@ -166,12 +166,14 @@ typedef void(^RTAnimationBlock)(UIView *oldView, UIView *newView);
 
 - (void)showInWindow:(UIWindow *)window;
 - (void)hide;
+- (void)showNextMessageOrHide;
 - (BOOL)hasMessage;
 - (RTToastMessage *)popNextMessage;
 - (void)showNextMessage;
 - (UIView *)viewForMessage:(RTToastMessage *)message withFrame:(CGRect)frame;
 - (void)statusBarOrientationWillChange:(NSNotification *)notification;
 - (void)setTransformForOrientation:(UIInterfaceOrientation)orientation animated:(BOOL)animated;
+- (void)onHidingTimer:(NSTimer *)timer;
 - (void)singleTapAction:(id)sender;
 - (void)doubleTapAction:(id)sender;
 
@@ -249,15 +251,6 @@ static RTToastManager* sharedToastManager;
 - (void)showMessageWithText:(NSString *)text duration:(NSTimeInterval)duration {
     RTToastMessage *message = RT_AUTORELEASE([[RTToastMessage alloc] initWithText:text andDuration:duration]);
     [self showMessage:message];
-}
-
-- (void)onHidingTimer:(NSTimer *)timer {
-    if ([self hasMessage]) {
-        [self showNextMessage];
-    }
-    else {
-        [self hide];
-    }
 }
 
 #pragma mark - Private methods
@@ -376,6 +369,15 @@ static RTToastManager* sharedToastManager;
 
 - (BOOL)hasMessage {
     return [_messages count] > 0;
+}
+
+- (void)showNextMessageOrHide {
+    if ([self hasMessage]) {
+        [self showNextMessage];
+    }
+    else {
+        [self hide];
+    }
 }
 
 - (RTToastMessage *)popNextMessage {
@@ -512,13 +514,13 @@ static RTToastManager* sharedToastManager;
     }
 }
 
+
+- (void)onHidingTimer:(NSTimer *)timer {
+    [self showNextMessageOrHide];
+}
+
 - (void)singleTapAction:(id)sender {
-    if ([self hasMessage]) {
-        [self showNextMessage];
-    }
-    else {
-        [self hide];
-    }
+    [self showNextMessageOrHide];
 }
 
 - (void)doubleTapAction:(id)sender {
