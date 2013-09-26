@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				E935109217904C6A00F30FA2 /* Demo */,
-				E993BB02178B080B00CD032E /* RTToastManager */,
+				E993BB02178B080B00CD032E /* RTToastMessage */,
 				E993BAFB178B080B00CD032E /* Frameworks */,
 				E993BAFA178B080B00CD032E /* Products */,
 			);
@@ -126,15 +126,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E993BB02178B080B00CD032E /* RTToastManager */ = {
-			isa = PBXGroup;
-			children = (
-				E993BB23178B110000CD032E /* RTToastManager */,
-			);
-			path = RTToastManager;
-			sourceTree = "<group>";
-		};
-		E993BB23178B110000CD032E /* RTToastManager */ = {
+		E993BB02178B080B00CD032E /* RTToastMessage */ = {
 			isa = PBXGroup;
 			children = (
 				E993BB2E178B11DD00CD032E /* RTToastManager.h */,
@@ -142,7 +134,8 @@
 				E993BB31178B11FA00CD032E /* RTToastMessage.h */,
 				E993BB32178B11FA00CD032E /* RTToastMessage.m */,
 			);
-			name = RTToastManager;
+			name = RTToastMessage;
+			path = RTToastManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
