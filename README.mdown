@@ -1,0 +1,32 @@
+# RTToastMessage
+
+`RTToastMessage` is a quick and easy way to show toast messages. It's a queue based FIFO toast.
+It supports various customizations:
+* Toast image
+* Font
+* Background color
+* Text color
+* Text shadow color and offset
+* Different transitions from one toast to another
+* Toast duration
+
+![RTToastMessage](http://i44.tinypic.com/2ln7eyc.jpg)
+
+## Usage ##
+
+Show a simple toast message
+```Objective-c
+[RTToastManager sharedManager] showMessageWithText:@"Simple toast"];
+```
+Configure a toast
+```Objective-c
+RTToastMessage *message = [[RTToastMessage alloc] initWithText:@"Dog"];
+    message.image = [UIImage imageNamed:@"dog.png"];
+    message.backgroundColor = [UIColor whiteColor];
+    message.textColor = [UIColor darkTextColor];
+    message.transitionType = RTToastMessageTransitionFlipFromLeft;
+    [[RTToastManager sharedManager] showMessage:message];
+```
+## License ##
+
+This code is distributed under the terms and conditions of the [MIT license](LICENSE). 
