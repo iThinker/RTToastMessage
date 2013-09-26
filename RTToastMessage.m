@@ -124,7 +124,7 @@ NSTimeInterval const RTToastMessageDefaultDuration = 4.0;
 #pragma mark - NSCopying
 
 - (id)copyWithZone:(NSZone *)zone {
-    RTToastMessage *copy = [[RTToastMessage alloc] init];
+    RTToastMessage *copy = [[RTToastMessage alloc] initWithMessage:self];
     return copy;
 }
 
